@@ -31,7 +31,6 @@ def update_board():
     for x in myresult:
         namelist.append(x[0])
         scorelist.append(int(x[1]))
-        print(x[0] + " -> " + x[1])
     
     for x in range(1, len(namelist)):
         scorelist[x-1] = scorelist[x]
